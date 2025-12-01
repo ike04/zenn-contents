@@ -3,7 +3,7 @@ title: "Androidの定期購入の作成とテスト手順について"
 emoji: "🔖"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [Android]
-published: false
+published: true
 published_at: 2024-12-05 08:00
 ---
 :::message
