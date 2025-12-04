@@ -4,11 +4,11 @@ emoji: "⚡"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Zapier", "業務効率化"]
 published: true
-published_at: 2025-12-05 08:00
+published_at: 2025-12-23 08:00
 ---
 
 :::message
-本稿は、ZOZO Advent Calendar 2025 シリーズ 12 の 5 日目の記事です🎄
+本稿は、[ZOZO Advent Calendar 2025](https://qiita.com/advent-calendar/2025/zozo) シリーズ 12 の 23 日目の記事です🎄
 :::
 
 ## はじめに
@@ -32,7 +32,7 @@ Google Calendar の夕会イベントをトリガーに、開始 10 分前に Sl
 2. **Formatter by Zapier** - Pick from list を使って参加者のメンバー ID からランダムで 1 つ抽出
 3. **Slack** - チャンネルに担当者をメンション付きで通知
 
-![](/images/20251205/facilitator.png)
+![](/images/20251223/facilitator.png)
 **Zap の構成（再抽選）：**
 
 アサインされた人が休みなどで参加できない場合に備え、再抽選の仕組みも用意しています。
@@ -41,7 +41,7 @@ Google Calendar の夕会イベントをトリガーに、開始 10 分前に Sl
 2. **Formatter by Zapier** - ランダムに再抽選
 3. **Slack** - 同じスレッドに新しい担当者を通知
 
-![](/images/20251205/facilitator_reroll.png)
+![](/images/20251223/facilitator_reroll.png)
 
 ### 効果
 
@@ -64,7 +64,7 @@ App Store や Google Play からアプリ公開時に届くメールをトリガ
 1. **Gmail** - 各ストアからの公開通知メールを受信したらトリガー
 2. **Slack** - リリースチャンネルに速報を投稿
 
-![](/images/20251205/apple_notify.png)
+![](/images/20251223/apple_notify.png)
 
 **Zap の構成（審査リジェクト通知）：**
 
@@ -72,7 +72,7 @@ App Store や Google Play からアプリ公開時に届くメールをトリガ
 2. **ChatGPT** - メール本文を日本語に翻訳・要約
 3. **Slack** - リジェクト理由をわかりやすく投稿
 
-![](/images/20251205/android_notify.png)
+![](/images/20251223/android_notify.png)
 
 ### 効果
 
@@ -96,7 +96,7 @@ Google Calendar の会議イベントをトリガーに、Confluence API で前�
 2. **Webhooks by Zapier** - Confluence API で前回の議事録ページを複製
 3. **Slack** - 作成された議事録ページの URL をチャンネルに通知
 
-![](/images/20251205/gijiroku_max.png)
+![](/images/20251223/gijiroku_max.png)
 
 ### 効果
 
@@ -123,7 +123,7 @@ Jira の API を使用して次バージョンのチケット状況を集計し�
 
 **投稿されるレポート例：**
 
-![](/images/20251205/jira_progress_bot.png)
+![](/images/20251223/jira_progress_bot.png)
 
 ### 効果
 
