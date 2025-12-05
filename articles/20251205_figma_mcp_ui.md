@@ -5,6 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["flutter", "figma", "claude", "mcp", "ai"]
 published: true
 published_at: 2025-12-05 08:00
+publication_name: "zozotech"
 ---
 
 :::message
@@ -104,33 +105,6 @@ AIにデザインを分析させ、構造化されたプロンプトを生成し
 3. **デザインシステムの活用**: プロンプトにデザイントークンの使用を明記することで、プロジェクトのデザインシステムに沿った実装になる
 4. **レビュー可能**: 生成されたプロンプトを確認・修正してから実装に進める
 5. **再利用性**: 生成されたプロンプトは他のAIツールでも使い回せる
-
-## 推奨ワークフロー
-
-以下のワークフローを推奨します。
-
-### Step 1: デザインの分析とプロンプト生成
-
-```
-Figma MCPを使ってこのFigmaデザインの内容を取得して。今回実装する箇所はプロフィールセクションです。
-また取得した情報からUIの実装をしたいのでClaude Codeに実装を依頼するプロンプトを作成して。
-
-https://www.figma.com/design/xxxxx/yyyyy
-```
-
-### Step 2: プロンプトの確認・修正
-
-生成されたプロンプトを確認し、必要に応じて修正します。
-
-### Step 3: Flutterコードの生成
-
-確認済みのプロンプトを使って、Flutterコードの生成を依頼します。
-
-```
-以下の仕様でFlutterウィジェットを実装してください。
-
-[Step 1で生成されたプロンプト]
-```
 
 ## 具体例
 
@@ -297,9 +271,3 @@ Figma MCPとClaude Codeを使ったFlutter UI実装において、**Figmaリン�
 - プロンプトの再利用が可能
 
 AIを活用したUI実装のワークフローとして、ぜひ試してみてください。
-
-## 参考リンク
-
-- [Figma MCP Server（公式ドキュメント）](https://developers.figma.com/docs/figma-mcp-server/)
-- [Introducing our MCP server: Bringing Figma into your workflow（Figma公式ブログ）](https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/)
-- [Claude Code](https://docs.anthropic.com/ja/docs/claude-code)
