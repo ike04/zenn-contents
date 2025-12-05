@@ -5,6 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Zapier", "業務効率化"]
 published: true
 published_at: 2025-12-23 08:00
+publication_name: "zozotech"
 ---
 
 :::message
