@@ -2,8 +2,8 @@
 title: "Claude Codeのルールを育て続ける——Routinesでレビュー指摘を.claude/rulesに自動反映する"
 emoji: "🔄"
 type: "tech"
-topics: ["claudecode", "ai", "github", "ハーネスエンジニアリング", "AIコーディング"]
-published: false
+topics: ["claudecode", "ai", "claude", "ハーネスエンジニアリング", "AIコーディング"]
+published: true
 publication_name: "zozotech"
 ---
 
